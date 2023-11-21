@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smartbridge</title>
+  <!-- link to the external CSS file -->
+  <link rel="stylesheet" href="static\style.css">
+</head>
+<body>
+  <!-- header with the title -->
+  <div class="header">
+    <h1>Smartbridge</h1>
+  </div>
+  <!-- main section with the button and the line -->
+  <div class="main">
+    <!-- input element to choose a file -->
+    <!-- <input type="file" id="file-input" accept="image/*"> -->
+    <!-- label element to style the input element -->
+    <!-- <label for="file-input">Choose file to predict</label> -->
+    <!-- horizontal line -->
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+      <input type="file" name="image" id="file-input" accept="image/*">
+      <label for="file-input">Choose file to predict</label>
+      <input type="submit" value="Predict">
+    </form>
+    
+    <hr>
+  </div>
+</body>
+</html>

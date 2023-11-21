@@ -1,0 +1,87 @@
+/* style the body element */
+body {
+  /* set the background color to a dark shade of blue */
+  background-color: #0a192f;
+  /* set the font family to Arial */
+  font-family: Arial, sans-serif;
+  /* set the margin and padding to zero */
+  margin: 0;
+  padding: 0;
+}
+
+/* style the header element */
+.header {
+  /* set the background color to a lighter shade of blue */
+  background-color: #112240;
+  /* set the height to 80 pixels */
+  height: 80px;
+  /* center the content horizontally */
+  text-align: center;
+}
+
+/* style the h1 element inside the header element */
+.header h1 {
+  /* set the color to white */
+  color: white;
+  /* set the font size to 36 pixels */
+  font-size: 36px;
+  /* set the line height to 80 pixels to center the text vertically */
+  line-height: 80px;
+  /* remove the default margin */
+  margin: 0;
+}
+
+/* style the main element */
+.main {
+  /* set the width to 80% of the viewport width */
+  width: 80%;
+  /* center the element horizontally */
+  margin: 0 auto;
+  /* set the padding to 20 pixels */
+  padding: 20px;
+}
+
+/* style the input element with the type attribute set to file */
+input[type=file] {
+  /* hide the default appearance */
+  display: none;
+}
+
+/* style the label element that is associated with the input element */
+label {
+  /* set the display to block to occupy the whole line */
+  display: block;
+  /* set the width to 300 pixels */
+  width: 300px;
+  /* set the height to 50 pixels */
+  height: 50px;
+  /* set the background color to a light gray */
+  background-color: #d3d3d3;
+  /* set the border radius to 25 pixels to make the corners round */
+  border-radius: 25px;
+  /* center the text horizontally and vertically */
+  text-align: center;
+  line-height: 50px;
+  /* set the color to black */
+  color: black;
+  /* set the font size to 18 pixels */
+  font-size: 18px;
+  /* set the cursor to pointer to indicate that the element is clickable */
+  cursor: pointer;
+}
+
+/* style the label element when the mouse is over it */
+label:hover {
+  /* change the background color to a darker gray */
+  background-color: #a9a9a9;
+}
+
+/* style the hr element */
+hr {
+  /* set the border color to white */
+  border-color: white;
+  /* set the border width to 3 pixels */
+  border-width: 3px;
+  /* set the width to 50% of the parent element */
+  width: 50%;
+}
